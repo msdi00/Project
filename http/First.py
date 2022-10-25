@@ -1,6 +1,7 @@
 class ShopItem:
     ID_SHOP_ITEM = 0
     CREATE = 22
+    # step by step
 
     def __init__(self):
         super().__init__()
