@@ -1,5 +1,6 @@
 class ShopItem:
     ID_SHOP_ITEM = 0
+    CREATE = 22
 
     def __init__(self):
         super().__init__()
@@ -34,21 +35,4 @@ class Book(ShopItem, ShopGenericView):
 
 
 if __name__ == '__main__':
-
-    # class Book(ShopItem, ShopGenericView): ...
-    book = Book("Python ООП", "Балакирев", 2022)
-    print(book)
-    # на экране увидим строчки:
-    # _id: 1
-    # _title: Python ООП
-    # _author: Балакирев
-    # _year: 2022
-
-
-    # class Book(ShopItem, ShopUserView): ...
-    book = Book("Python ООП", "Балакирев", 2022)
-    print(book)
-    # на экране увидим строчки:
-    # _title: Python ООП
-    # _author: Балакирев
-    # _year: 2022
+    pass
